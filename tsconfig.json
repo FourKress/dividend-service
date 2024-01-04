@@ -1,0 +1,19 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es5",
+         "es6"
+      ],
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "removeComments": true,
+      "baseUrl": "./src"
+   },
+   "include": ["src/**/*", "src/bonus/dto/.dto.ts"],
+   "exclude": ["node_modules", "**/*.spec.ts"]
+}

@@ -1,0 +1,9 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "semi": true,
+  "stylelintIntegration": true,
+  "eslintIntegration": true,
+  "htmlWhitespaceSensitivity": "ignore"
+}
